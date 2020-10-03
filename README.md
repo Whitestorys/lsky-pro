@@ -9,7 +9,6 @@
 [![Issues](https://img.shields.io/github/issues/wisp-x/lsky-pro)](https://github.com/wisp-x/lsky-pro/issues)
 [![Code size](https://img.shields.io/github/languages/code-size/wisp-x/lsky-pro?color=blueviolet)](https://github.com/wisp-x/lsky-pro)
 [![Repo size](https://img.shields.io/github/repo-size/wisp-x/lsky-pro?color=eb56fd)](https://github.com/wisp-x/lsky-pro)
-[![Languages](https://img.shields.io/github/languages/count/wisp-x/lsky-pro?color=ff6565)](https://github.com/wisp-x/lsky-pro)
 [![Last commit](https://img.shields.io/github/last-commit/wisp-x/lsky-pro/dev)](https://github.com/wisp-x/lsky-pro/commits/dev)
 [![License](https://img.shields.io/badge/license-GPL_V3.0-yellowgreen.svg)](https://github.com/wisp-x/lsky-pro/blob/master/LICENSE)
 
@@ -19,7 +18,6 @@
 [Telegram 群组](https://t.me/lsky_pro)
 
 > 下载稳定版请点击[这里](https://github.com/wisp-x/lsky-pro/releases)，发现 bug 可发送邮件至邮箱：i@wispx.cn，或提交 [issues](https://github.com/wisp-x/lsky-pro/issues)  
-> 下载速度慢的可以移步 Coding https://wispx.coding.net/p/lsky-pro-releases/d/lsky-pro-releases/git
 
 ![homepage.png](./public/static/app/images/demo/1.png)
 ![homepage.png](./public/static/app/images/demo/2.png)
@@ -34,7 +32,7 @@
 * [x] 接口上传、图片软删除
 * [x] OTA 平滑升级系统
 * [x] (Dark)暗黑主题
-* [x] IP 封禁功能
+* [x] IP 封禁功能(支持通配符)
 * [x] 自定义链接参数
 * [x] 单用户模式
 * [ ] 图片广场

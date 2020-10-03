@@ -177,9 +177,6 @@ class Upload extends Controller
             throw new Exception('图片数据保存失败');
         }
 
-        // 追加额外的url参数
-        if ($query = Config::get('system.url_query')) $url = $url.$query;
-
         $data = [
             'name' => $image->getInfo('name'),
             'url' => $url,
@@ -243,10 +240,10 @@ class Upload extends Controller
             $file = $name;
         } else {
             $file = trim(str_replace(
-                    array_column($naming['file'], 'name'),
-                    array_column($naming['file'], 'value'),
-                    $fileRule
-                ), '/') . '.' . get_file_ext($name);
+                array_column($naming['file'], 'name'),
+                array_column($naming['file'], 'value'),
+                $fileRule
+            ), '/') . '.' . get_file_ext($name);
         }
         return $path . '/' . $file;
     }
